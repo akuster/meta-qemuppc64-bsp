@@ -1,0 +1,4 @@
+kconf hardware qemu-ppc64.cfg
+
+kconf hardware qemu-ppc64-user-config.cfg
+include qemu-ppc64-user-patches.scc

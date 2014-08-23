@@ -1,7 +1,0 @@
-define KMACHINE karch
-define KTYPE preempt-rt
-define KARCH powerpc
-
-include ktypes/preempt-rt/preempt-rt.scc
-
-include karch.scc

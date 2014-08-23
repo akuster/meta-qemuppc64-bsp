@@ -1,7 +1,0 @@
-define KMACHINE karch
-define KTYPE tiny
-define KARCH powerpc
-
-include ktypes/tiny/tiny.scc
-
-include karch.scc

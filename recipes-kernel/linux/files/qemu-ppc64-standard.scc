@@ -1,7 +1,8 @@
-define KMACHINE karch
+define KMACHINE qemuppc64
 define KTYPE standard
 define KARCH powerpc
 
 include ktypes/standard/standard.scc
+branch qemuppc
 
-include karch.scc
+include qemu-ppc64.scc

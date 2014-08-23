@@ -1,0 +1,9 @@
+kconf hardware karch.cfg
+
+include cfg/usb-mass-storage.scc
+include cfg/fs/vfat.scc
+
+include cfg/dmaengine.scc
+
+kconf hardware karch-user-config.cfg
+include karch-user-patches.scc

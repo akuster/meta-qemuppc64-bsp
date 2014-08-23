@@ -1,0 +1,7 @@
+define KMACHINE karch
+define KTYPE standard
+define KARCH powerpc
+
+include ktypes/standard/standard.scc
+
+include karch.scc

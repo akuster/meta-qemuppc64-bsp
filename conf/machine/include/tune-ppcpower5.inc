@@ -1,4 +1,4 @@
-DEFAULTTUNE ?= "ppcpr5"
+DEFAULTTUNE ?= "ppcp5"
 
 require conf/machine/include/powerpc/arch-powerpc64.inc
 
@@ -9,7 +9,7 @@ AVAILTUNES += "ppcp5 ppc64p5"
 TUNE_FEATURES_tune-ppcp5 = "m32 fpu-hard power5 altivec"
 BASE_LIB_tune-ppcp5 = "lib"
 TUNE_PKGARCH_tune-ppcp5 = "ppcp5"
-PACKAGE_EXTRA_ARCHS_tune-ppcp5 = "${PACKAGE_EXTRA_ARCHS_tune-powerpc} ppcpower5"
+PACKAGE_EXTRA_ARCHS_tune-ppcp5 = "${PACKAGE_EXTRA_ARCHS_tune-powerpc} ppcp5"
 
 TUNE_FEATURES_tune-ppc64p5 = "m64 fpu-hard power5 altivec"
 BASE_LIB_tune-ppc64p5 = "lib64"
